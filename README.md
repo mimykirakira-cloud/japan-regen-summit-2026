@@ -35,3 +35,12 @@ npm run dev
 2. 正式なタイムテーブル・料金・チケットURLの反映
 3. KIBOTCHA公式会場図に基づく体験マップの精密化
 4. 公開前の固有名詞、災害情報、登壇情報の最終校正
+
+## LP改善 Before / After解説ページ
+
+`/lp-review` に、旧LPから最終LPへ再編集した意図を共有するケーススタディページを実装しています。
+
+- ページ本体: `app/lp-review/page.tsx`
+- 専用スタイル: `app/lp-review/review.css`
+- 比較内容: ページ冒頭の `issues` / `comparisons` / `lenses` / `summary` を編集
+- 図解: 外部画像に依存しないReactコンポーネントとCSSで構成
