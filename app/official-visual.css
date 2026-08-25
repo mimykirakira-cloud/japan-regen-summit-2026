@@ -1,0 +1,27 @@
+.official-visual {
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.72fr 1.28fr;
+  align-items: center;
+  gap: clamp(3rem, 7vw, 7rem);
+}
+
+.official-visual-copy { max-width: 430px; }
+.official-visual figure { margin: 0; }
+.official-visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 24px 70px #1d352a24;
+}
+.official-visual figcaption {
+  margin-top: 0.7rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: #6e756f;
+}
+
+@media (max-width: 800px) {
+  .official-visual { grid-template-columns: 1fr; gap: 2.5rem; }
+}
