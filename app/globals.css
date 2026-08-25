@@ -11,3 +11,6 @@
 .experience-media{height:280px;margin-bottom:1.6rem;overflow:hidden;background:#314f42}.experience-media video{display:block;width:100%;height:100%;object-fit:cover}@media(max-width:800px){.experience-media{height:220px}}@media(max-width:520px){.experience-media{height:330px}}
 .compare-cards article>p span{display:block;margin-top:.45rem;font-size:.78rem;letter-spacing:.06em}
 .closing-invitation strong{display:block;margin-top:1.4rem;font-family:var(--serif);font-size:clamp(2rem,4vw,3.5rem);font-weight:400;line-height:1.45;color:#e5c990}
+.reveal-enabled .scroll-reveal{opacity:0;transform:translateY(clamp(42px,7vw,88px));transition:opacity 1.15s cubic-bezier(.22,1,.36,1),transform 1.15s cubic-bezier(.22,1,.36,1);will-change:opacity,transform}
+.reveal-enabled .scroll-reveal.is-visible{opacity:1;transform:translateY(0);will-change:auto}
+@media(prefers-reduced-motion:reduce){.reveal-enabled .scroll-reveal{opacity:1;transform:none;transition:none}}
