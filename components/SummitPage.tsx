@@ -50,7 +50,7 @@ export function SummitPage() {
 
     <section className="faq section-pad"><div className="section-grid"><div><Eyebrow>FAQ</Eyebrow><h2>よくあるご質問</h2></div><div className="faq-list">{faqs.map(([q,a],i)=><details key={q} open={i===0}><summary>{q}<span>＋</span></summary><p>{a}</p></details>)}</div></div></section>
 
-    <section className="final-cta section-pad"><div className="narrow center"><Eyebrow>JAPAN REGEN SUMMIT 2026</Eyebrow><p className="big-serif">いのち、始まる。</p><h2>未来に何かが起きた時に、<br/>支え合える関係を、<br/>何も起きていない今からつくる。</h2><p>まだ名前のついていない未来に、一緒に会いに行きませんか。</p><blockquote>あなたが生き生きするほど、<br/>地球も、地域も、人も豊かになる。</blockquote><p>まず会いましょう。一緒に食べましょう。話しましょう。土に触れましょう。ここから、関係を始めましょう。</p><div className="final-meta">2026年9月26日（土）<br/>宮城県東松島市 KIBOTCHA</div><div className="hero-actions"><Cta>Japan リジェンサミット2026に参加する</Cta><a href="#online" className="text-link light">オンライン参加を見る</a></div></div></section>
+    <section className="final-cta section-pad"><div className="narrow center"><Eyebrow>JAPAN REGEN SUMMIT 2026</Eyebrow><p className="big-serif">いのち、始まる。</p><h2>未来に何かが起きた時に、<br/>支え合える関係を、<br/>何も起きていない今からつくる。</h2><p>まだ名前のついていない未来に、一緒に会いに行きませんか。</p><blockquote>あなたが生き生きするほど、<br/>地球も、地域も、人も豊かになる。</blockquote><p className="closing-invitation">まず会いましょう。一緒に食べましょう。話しましょう。土に触れましょう。<strong>ここから、いのちを始めましょう。</strong></p><div className="final-meta">2026年9月26日（土）<br/>宮城県東松島市 KIBOTCHA</div><div className="hero-actions"><Cta>Japan リジェンサミット2026に参加する</Cta><a href="#online" className="text-link light">オンライン参加を見る</a></div></div></section>
 
     <footer><p>JAPAN REGEN SUMMIT 2026</p><small>主催：任意団体 日本リジェネラティブ協会</small></footer><div className="mobile-cta"><a href="#tickets">東松島で参加する <span>→</span></a></div>
   </main>;
